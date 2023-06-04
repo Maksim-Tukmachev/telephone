@@ -4,9 +4,9 @@ public class Main {
         int summa = 400;
         int secondBalance = balance + summa;
         if (summa > 1000) {
-            int Bonus = summa / 100;
-            System.out.println(Bonus);
-            System.out.println(secondBalance + Bonus);
+            int bonus = summa / 100;
+            System.out.println(bonus);
+            System.out.println(secondBalance + bonus);
 
         } else {
             System.out.println(secondBalance);
